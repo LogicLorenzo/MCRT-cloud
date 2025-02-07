@@ -1,6 +1,6 @@
 # Monte Carlo Ray Tracing For a Collection of Spheres
 
-This project implements a Monte Carlo Ray Tracing algorithm that simulates the interaction of photons with a collection of spheres. The spheres' properties, including their coordinates and radii, are read from a text file. The project is designed to facilitate further development in interaction modeling, rotation matrices for orientational averaging, and parallel computing.
+This project implements a Monte Carlo Ray Tracing algorithm that simulates the interaction of photons with a collection of spheres. The spheres' properties, including their coordinates and radii, are read from a text file. The Monte Carlo Ray Tracing algorithm is a statistical method used to simulate the behavior of photons as they interact with objects. This project focuses on modeling the interaction of photons with spheres. 
 
 ## Project Structure
 ```
@@ -19,9 +19,12 @@ monte-carlo-ray-tracing
 ├── Makefile # Build instructions for the project 
 └── README.md # Project documentation
 ```
-## Overview
+## Setup Instructions
 
-The Monte Carlo Ray Tracing algorithm is a statistical method used to simulate the behavior of photons as they interact with objects in a scene. This project focuses on modeling the interaction of photons with spheres, allowing for complex light behavior to be analyzed.
+1- Ensure you have a Fortran compiler installed (e.g., gfortran).
+2- Clone the repository or download the project files.
+3- Navigate to the project directory.
+
 
 ## Running the Program
 
@@ -42,11 +45,11 @@ The project utilizes OpenMP for parallel computing to speed up the Monte Carlo s
 ## Data File Format
 
 The spheres_data.txt file should contain the coordinates and radii of the spheres in the following format:
-
+```
 x1 y1 z1 r1
 x2 y2 z2 r2
 ...
-
+```
 Currently, the algorithm expects the data to be given in spheres_dat.txt. The file is read from main.f90, so the user must change the name there if the information is given in a different file. 
 
 ## Main Program Logic
