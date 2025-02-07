@@ -3,7 +3,7 @@
 This project implements a Monte Carlo Ray Tracing algorithm that simulates the interaction of photons with a collection of spheres. The spheres' properties, including their coordinates and radii, are read from a text file. The project is designed to facilitate further development in interaction modeling, rotation matrices for orientational averaging, and parallel computing.
 
 ## Project Structure
-
+```
 monte-carlo-ray-tracing 
 ├── src 
 │  ├── main.f90 # Entry point of the application 
@@ -18,7 +18,7 @@ monte-carlo-ray-tracing
 │  └── spheres_data.txt # Sphere properties data 
 ├── Makefile # Build instructions for the project 
 └── README.md # Project documentation
-
+```
 ## Overview
 
 The Monte Carlo Ray Tracing algorithm is a statistical method used to simulate the behavior of photons as they interact with objects in a scene. This project focuses on modeling the interaction of photons with spheres, allowing for complex light behavior to be analyzed.
