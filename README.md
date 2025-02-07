@@ -1,4 +1,4 @@
-# Monte Carlo Ray Tracing For a Collection of Spheres
+# Monte Carlo Ray Tracing For a Collection of Spheres (Work in progress)
 
 This project implements a Monte Carlo Ray Tracing algorithm that simulates the interaction of photons with a collection of spheres. The spheres' properties, including their coordinates and radii, are read from a text file. The Monte Carlo Ray Tracing algorithm is a statistical method used to simulate the behavior of photons as they interact with objects. This project focuses on modeling the interaction of photons with spheres. 
 
